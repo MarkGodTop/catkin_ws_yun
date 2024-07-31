@@ -1,0 +1,486 @@
+{
+  "TaskData": {
+    "TaskInfo": {
+      "SenceId": 3,
+      "TaskName": "\u7a7a\u5730\u534f\u540c\u5bdf\u6253\u4f5c\u6218\u4efb\u52a1",
+      "TaskOverTime": 10,
+      "TaskDescription": "\u4efb\u52a1\u80cc\u666f\uff1a\u5728\u4e00\u4e2a\u9519\u7efc\u590d\u6742\u7684\u57ce\u5e02\u8857\u5df7\u4e2d\uff0c\u654c\u65b9\u5efa\u7acb\u4e86\u4e00\u5ea7\u575a\u56fa\u7684\u7889\u5821\u4f5c\u4e3a\u91cd\u8981\u9632\u5fa1\u8bbe\u65bd\u3002\u4e3a\u4e86\u53d6\u5f97\u6218\u7565\u4e0a\u7684\u4f18\u52bf\uff0c\u6211\u65b9\u51b3\u5b9a\u7ec4\u7ec7\u4e00\u6b21\u7a81\u51fb\u884c\u52a8\uff0c\u4ee5\u6467\u6bc1\u8fd9\u5ea7\u7889\u5821\u3002\u4efb\u52a1\u76ee\u6807\uff1a\u6210\u529f\u7a81\u7834\u654c\u65b9\u8857\u5df7\u9632\u7ebf\uff0c\u62b5\u8fbe\u5e76\u6467\u6bc1\u76ee\u6807\u7889\u5821\u3002",
+      "TaskEndList": [
+        {
+          "TaskEndId": 1,
+          "TaskEndName": "\u8d85\u8fc7\u65f6\u957f\u9650\u5236"
+        },
+        {
+          "TaskEndId": 2,
+          "TaskEndName": "\u6240\u6709\u8bbe\u5907\u5230\u8fbe\u7ec8\u70b9"
+        }
+      ]
+    },
+    "EquipmentData": [
+      {
+        "EquipmentId": 1,
+        "EquipmentType": 1,
+        "EquipmentAliasName": "\u65e0\u4eba\u673a1",
+        "EquipmentName": "CustomFlyingPawn_1",
+        "ArmyCamp": "",
+        "EquipmentX": 5102,
+        "EquipmentY": 6241,
+        "EquipmentZ": 100,
+        "EquipmentRX": 0,
+        "EquipmentRY": 0,
+        "EquipmentRZ": 0,
+        "HealthValue": 100,
+        "AttackValue": 0,
+        "AmmoNumber": 0,
+        "CameraList": [
+          {
+            "CameraName": "Intel\u00aeRealSense\u2122_Depth_Camera_D455_RGB"
+          },
+          {
+            "CameraName": "Intel\u00aeRealSense\u2122_Depth_Camera_D455_Depth"
+          },
+          {
+            "CameraName": "Custom_MV_CAMERA_001"
+          }
+        ],
+        "SensorList": [
+          {
+            "SensorName": "IMU_ALUBI_LPMS_IG1_RS232"
+          }
+        ],
+        "PathData": [
+          {
+            "PointID": 1,
+            "PointX": 51.02,
+            "PointY": 62.41,
+            "PointZ": -0.0566,
+            "TaskIndicator": [
+              {
+                "TaskIndicatorName": "positionMeasureFour",
+                "TaskIndicatorEnd": 7
+              },
+              {
+                "TaskIndicatorName": "iouTargetAccuracy",
+                "TaskIndicatorEnd": 7
+              },
+              {
+                "TaskIndicatorName": "dynamicRangingAccuracy",
+                "TaskIndicatorEnd": 7
+              }
+            ]
+          },
+          {
+            "PointID": 2,
+            "PointX": 57.415233,
+            "PointY": 3.733038,
+            "PointZ": -10.00
+          },
+          {
+            "PointID": 3,
+            "PointX": 17.034907,
+            "PointY": -73.599628,
+            "PointZ": -10.00
+          },
+          {
+            "PointID": 4,
+            "PointX": 0.042421,
+            "PointY": 8.475676,
+            "PointZ": -10.00
+          },
+          {
+            "PointID": 5,
+            "PointX": -36.666107,
+            "PointY": 55.301721,
+            "PointZ": -10.00
+          },
+          {
+            "PointID": 6,
+            "PointX": -48.93818,
+            "PointY": -11.984252,
+            "PointZ": -10.00
+          },
+          {
+            "PointID": 7,
+            "PointX": -82.676566,
+            "PointY": -72.405554,
+            "PointZ": -10.00
+          }
+        ]
+      },
+      {
+        "EquipmentId": 2,
+        "EquipmentType": 0,
+        "EquipmentAliasName": "\u65e0\u4eba\u8f661",
+        "EquipmentName": "CustomSuvCarPawn_1",
+        "ArmyCamp": "",
+        "EquipmentX": 4840.204803586996,
+        "EquipmentY": 5196.689779809571,
+        "EquipmentZ": -105.23953437805567,
+        "EquipmentRX": 0,
+        "EquipmentRY": 0,
+        "EquipmentRZ": 90,
+        "HealthValue": 100,
+        "AttackValue": 20,
+        "AmmoNumber": 0,
+        "CameraList": [
+          {
+            "CameraName": "Intel\u00aeRealSense\u2122_Depth_Camera_D455_RGB"
+          },
+          {
+            "CameraName": "Intel\u00aeRealSense\u2122_Depth_Camera_D455_Depth"
+          },
+          {
+            "CameraName": "Custom_MV_CAMERA_001"
+          }
+        ],
+        "SensorList": [
+          {
+            "SensorName": "IMU_ALUBI_LPMS_IG1_RS232"
+          }
+        ],
+        "PathData": [
+          {
+            "PointID": 1,
+            "PointX": 4840.204803586996,
+            "PointY": 5196.689779809571,
+            "PointZ": -105.23953437805567,
+            "TaskIndicator": [
+              {
+                "TaskIndicatorName": "positionMeasureFour",
+                "TaskIndicatorEnd": 5
+              }
+            ]
+          },
+          {
+            "PointID": 2,
+            "PointX": 4810.6907,
+            "PointY": 4331.8959,
+            "PointZ": 155.2395
+          },
+          {
+            "PointID": 3,
+            "PointX": 4382.2675,
+            "PointY": -2014.5948,
+            "PointZ": 155.2395
+          },
+          {
+            "PointID": 4,
+            "PointX": -2354.1657,
+            "PointY": -5760.5457,
+            "PointZ": 155.2395
+          },
+          {
+            "PointID": 5,
+            "PointX": -5632.7801,
+            "PointY": -5885.4006,
+            "PointZ": 155.2395
+          }
+        ]
+      }
+    ],
+    "ObstacleData": [
+      {
+        "ObstacleID": 1,
+        "ObstacleType": 1,
+        "ObstacleChineseName": "\u969c\u788d\u73af",
+        "ObstacleName": "Cycle_1",
+        "ObstacleCamp": "",
+        "ObstacleX": 4568.7188,
+        "ObstacleY": 1521.5943,
+        "ObstacleZ": 500,
+        "ObstacleRX": 0,
+        "ObstacleRY": 0,
+        "ObstacleRZ": 0,
+        "TaskIndicator": [
+          "dynamicRangingAccuracy"
+        ]
+      },
+      {
+        "ObstacleID": 2,
+        "ObstacleType": 1,
+        "ObstacleChineseName": "\u969c\u788d\u73af",
+        "ObstacleName": "Cycle_2",
+        "ObstacleCamp": "",
+        "ObstacleX": 4189.4585,
+        "ObstacleY": -2213.627,
+        "ObstacleZ": 500,
+        "ObstacleRX": 0,
+        "ObstacleRY": 0,
+        "ObstacleRZ": 0,
+        "TaskIndicator": [
+          "dynamicRangingAccuracy"
+        ]
+      },
+      {
+        "ObstacleID": 3,
+        "ObstacleType": 1,
+        "ObstacleChineseName": "\u969c\u788d\u73af",
+        "ObstacleName": "Cycle_3",
+        "ObstacleCamp": "",
+        "ObstacleX": 2757.0714,
+        "ObstacleY": -1442.469,
+        "ObstacleZ": 500,
+        "ObstacleRX": 0,
+        "ObstacleRY": 0,
+        "ObstacleRZ": 0,
+        "TaskIndicator": [
+          "dynamicRangingAccuracy"
+        ]
+      },
+      {
+        "ObstacleID": 4,
+        "ObstacleType": 8,
+        "ObstacleChineseName": "\u6cb9\u6876",
+        "ObstacleName": "OilDrums_4",
+        "ObstacleCamp": "",
+        "ObstacleX": 2674.2603,
+        "ObstacleY": -3347.0185,
+        "ObstacleZ": 3.7106,
+        "ObstacleRX": 0,
+        "ObstacleRY": 0,
+        "ObstacleRZ": 0,
+        "TaskIndicator": [
+          "dynamicRangingAccuracy"
+        ]
+      },
+      {
+        "ObstacleID": 5,
+        "ObstacleType": 8,
+        "ObstacleChineseName": "\u6cb9\u6876",
+        "ObstacleName": "OilDrums_5",
+        "ObstacleCamp": "",
+        "ObstacleX": 2997.6821,
+        "ObstacleY": -3684.502,
+        "ObstacleZ": 105.2395,
+        "ObstacleRX": 0,
+        "ObstacleRY": 0,
+        "ObstacleRZ": 0,
+        "TaskIndicator": [
+          "dynamicRangingAccuracy"
+        ]
+      },
+      {
+        "ObstacleID": 6,
+        "ObstacleType": 8,
+        "ObstacleChineseName": "\u6cb9\u6876",
+        "ObstacleName": "OilDrums_6",
+        "ObstacleCamp": "",
+        "ObstacleX": 2676.5114,
+        "ObstacleY": 2762.5574,
+        "ObstacleZ": 5.2408,
+        "ObstacleRX": 0,
+        "ObstacleRY": 0,
+        "ObstacleRZ": 0,
+        "TaskIndicator": [
+          "dynamicRangingAccuracy"
+        ]
+      },
+      {
+        "ObstacleID": 7,
+        "ObstacleType": 8,
+        "ObstacleChineseName": "\u6cb9\u6876",
+        "ObstacleName": "OilDrums_7",
+        "ObstacleCamp": "",
+        "ObstacleX": -543.0383,
+        "ObstacleY": 3434.3835,
+        "ObstacleZ": 16.1932,
+        "ObstacleRX": 0,
+        "ObstacleRY": 0,
+        "ObstacleRZ": 0,
+        "TaskIndicator": [
+          "dynamicRangingAccuracy"
+        ]
+      },
+      {
+        "ObstacleID": 8,
+        "ObstacleType": 8,
+        "ObstacleChineseName": "\u6cb9\u6876",
+        "ObstacleName": "OilDrums_8",
+        "ObstacleCamp": "",
+        "ObstacleX": -434.422,
+        "ObstacleY": 3127.102,
+        "ObstacleZ": 23.2044,
+        "ObstacleRX": 0,
+        "ObstacleRY": 0,
+        "ObstacleRZ": 0,
+        "TaskIndicator": [
+          "dynamicRangingAccuracy"
+        ]
+      },
+      {
+        "ObstacleID": 9,
+        "ObstacleType": 1,
+        "ObstacleChineseName": "\u969c\u788d\u73af",
+        "ObstacleName": "Cycle_9",
+        "ObstacleCamp": "",
+        "ObstacleX": -1995.7212,
+        "ObstacleY": -3478.5845,
+        "ObstacleZ": 500,
+        "ObstacleRX": 0,
+        "ObstacleRY": 0,
+        "ObstacleRZ": 0,
+        "TaskIndicator": [
+          "dynamicRangingAccuracy"
+        ]
+      },
+      {
+        "ObstacleID": 10,
+        "ObstacleType": 4,
+        "ObstacleChineseName": "\u8857\u5792",
+        "ObstacleName": "Barricade_10",
+        "ObstacleCamp": "",
+        "ObstacleX": -2975.0474,
+        "ObstacleY": 736.5131,
+        "ObstacleZ": 159.3046,
+        "ObstacleRX": 0,
+        "ObstacleRY": 0,
+        "ObstacleRZ": 0,
+        "TaskIndicator": [
+          "dynamicRangingAccuracy"
+        ]
+      },
+      {
+        "ObstacleID": 11,
+        "ObstacleType": 4,
+        "ObstacleChineseName": "\u8857\u5792",
+        "ObstacleName": "Barricade_11",
+        "ObstacleCamp": "",
+        "ObstacleX": -2972.2995,
+        "ObstacleY": 615.1081,
+        "ObstacleZ": 153.2233,
+        "ObstacleRX": 0,
+        "ObstacleRY": 0,
+        "ObstacleRZ": 0,
+        "TaskIndicator": [
+          "dynamicRangingAccuracy"
+        ]
+      },
+      {
+        "ObstacleID": 12,
+        "ObstacleType": 4,
+        "ObstacleChineseName": "\u8857\u5792",
+        "ObstacleName": "Barricade_12",
+        "ObstacleCamp": "",
+        "ObstacleX": -3026.8471,
+        "ObstacleY": 361.3277,
+        "ObstacleZ": 154.4104,
+        "ObstacleRX": 0,
+        "ObstacleRY": 0,
+        "ObstacleRZ": 0,
+        "TaskIndicator": [
+          "dynamicRangingAccuracy"
+        ]
+      },
+      {
+        "ObstacleID": 13,
+        "ObstacleType": 3,
+        "ObstacleChineseName": "\u62d2\u9a6c",
+        "ObstacleName": "RoadBlock_13",
+        "ObstacleCamp": "",
+        "ObstacleX": -6408.8762,
+        "ObstacleY": -7280.5883,
+        "ObstacleZ": 38.596,
+        "ObstacleRX": 0,
+        "ObstacleRY": 0,
+        "ObstacleRZ": 0,
+        "TaskIndicator": [
+          "dynamicRangingAccuracy"
+        ]
+      },
+      {
+        "ObstacleID": 14,
+        "ObstacleType": 3,
+        "ObstacleChineseName": "\u62d2\u9a6c",
+        "ObstacleName": "RoadBlock_14",
+        "ObstacleCamp": "",
+        "ObstacleX": -6948.439,
+        "ObstacleY": -7428.3743,
+        "ObstacleZ": 60.7279,
+        "ObstacleRX": 0,
+        "ObstacleRY": 0,
+        "ObstacleRZ": 0,
+        "TaskIndicator": [
+          "dynamicRangingAccuracy"
+        ]
+      },
+      {
+        "ObstacleID": 15,
+        "ObstacleType": 3,
+        "ObstacleChineseName": "\u62d2\u9a6c",
+        "ObstacleName": "RoadBlock_15",
+        "ObstacleCamp": "",
+        "ObstacleX": -7619.1928,
+        "ObstacleY": -7324.9568,
+        "ObstacleZ": 69.6755,
+        "ObstacleRX": 0,
+        "ObstacleRY": 0,
+        "ObstacleRZ": 0,
+        "TaskIndicator": [
+          "dynamicRangingAccuracy"
+        ]
+      },
+      {
+        "ObstacleID": 16,
+        "ObstacleType": 5,
+        "ObstacleChineseName": "\u7889\u5821",
+        "ObstacleName": "BlockHouse_16",
+        "ObstacleCamp": "",
+        "ObstacleX": -7963.6592,
+        "ObstacleY": -8374.2325,
+        "ObstacleZ": 88.5231,
+        "ObstacleRX": 0,
+        "ObstacleRY": 0,
+        "ObstacleRZ": 0,
+        "TaskIndicator": [
+          "dynamicRangingAccuracy"
+        ]
+      }
+    ],
+    "EquipmentIndicator": {
+      "Entirety": {
+        "EntiretyTitle": "\u7a7a\u5730\u534f\u540c\u5bdf\u6253\u4f5c\u6218\u4efb\u52a1",
+        "Indicator": [
+          "timeConsume"
+        ],
+        "EquipmentIndividual": []
+      },
+      "Section": [
+        {
+          "PhaseID": 1,
+          "PhaseTitle": "\u5168\u9762\u4fa6\u5bdf",
+          "PhaseDescription": "",
+          "GroupEquipment": [],
+          "Indicator": [],
+          "PhaseEquipmentIndividual": [
+            {
+              "EquipmentName": "CustomFlyingPawn_1",
+              "Indicator": [
+                "iouTargetAccuracy",
+                "positionMeasureFour",
+                "dynamicRangingAccuracy"
+              ]
+            }
+          ],
+          "Task": []
+        },
+        {
+          "PhaseID": 2,
+          "PhaseTitle": "\u8857\u533a\u7a81\u51fb",
+          "PhaseDescription": "",
+          "GroupEquipment": [],
+          "Indicator": [],
+          "PhaseEquipmentIndividual": [
+            {
+              "EquipmentName": "CustomSuvCarPawn_1",
+              "Indicator": [
+                "positionMeasureFour",
+                "collide"
+              ]
+            }
+          ],
+          "Task": []
+        }
+      ]
+    }
+  }
+}

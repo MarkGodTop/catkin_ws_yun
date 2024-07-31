@@ -1,0 +1,17 @@
+waypoint_num: 2
+waypoint0:
+  x: 0
+  y: 0
+  z: 0
+  TaskIndicator:
+    - task: 目标检测
+      persistent: 5
+    - task: 速度01
+waypoint1:
+  x: 0
+  y: 0
+  z: -2
+  TaskIndicator:
+    []
+max_vel: 20
+max_acc: 8

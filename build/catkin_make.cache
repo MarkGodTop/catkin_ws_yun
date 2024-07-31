@@ -1,0 +1,2 @@
+Yolov8_ros/plan_and_control:Yolov8_ros/tracking_controller:Yolov8_ros/trajectory_generator:Yolov8_ros/uav_msgs:Yolov8_ros/yolov8_ros:Yolov8_ros/yolov8_ros_msgs
+-DCATKIN_WHITELIST_PACKAGES= -DCATKIN_DEVEL_PREFIX=/home/ros20/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ros20/catkin_ws/install -G Unix Makefiles

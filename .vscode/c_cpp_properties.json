@@ -1,0 +1,32 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "path": [
+          "/mnt/d/AirSim/AirLib/lib/$(Platform)/$(Configuration)/*.lib",
+          "/mnt/d/AirSim/AirLib/deps/rpclib/lib/$(Platform)/$(Configuration)/*.lib",
+          "/mnt/d/AirSim/AirLib/deps/MavLinkCom/lib/$(Platform)/$(Configuration)/*.lib"
+        ],
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/ros20/yolov8/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/ros20/yolov8/catkin_ws/src/Yolov8_ros/uav-competition/plan_and_control/include/**",
+        "/home/ros20/yolov8/catkin_ws/src/Yolov8_ros/uav-competition/tracking_controller/include/**",
+        "/home/ros20/yolov8/catkin_ws/src/Yolov8_ros/uav-competition/trajectory_generator/include/**",
+        "/mnt/d/AirSim/AirLib/deps/rpclib/include/**",
+        "/mnt/d/AirSim/AirLib/deps/eigen3/**",
+        "/mnt/d/AirSim/AirLib/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

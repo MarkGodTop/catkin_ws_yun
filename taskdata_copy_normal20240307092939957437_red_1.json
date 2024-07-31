@@ -1,0 +1,83 @@
+{
+  "EquipmentId": 1,
+  "EquipmentName": "CustomFlyingPawn_red1",
+  "EquipmentType": 1,
+  "ObstacleCamp": "red",
+  "EquipmentX": 11570.4828,
+  "EquipmentY": -2190.303,
+  "EquipmentZ": -2190.303,
+  "EquipmentRX": 0,
+  "EquipmentRY": 0,
+  "EquipmentRZ": 0,
+  "HealthValue": 100,
+  "AttackValue": 100,
+  "AttackRange": 15,
+  "HitRate": 60,
+  "CameraList": [],
+  "SensorList": [],
+  "PathData": [
+    {
+      "PointID": 1,
+      "PointX": 0,
+      "PointY": 0,
+      "PointZ": 0,
+      "TaskIndicator": [
+          {
+            "TaskIndicatorName": "动态定位",
+            "TaskIndicatorEnd": 4
+          },
+          {
+            "TaskIndicatorName": "定姿",
+            "TaskIndicatorEnd": 4
+          },
+          {
+            "TaskIndicatorName": "目标检测",
+            "TaskIndicatorEnd": 4
+          },
+          {
+            "TaskIndicatorName": "测距",
+            "TaskIndicatorEnd": 4
+          }
+      ]
+    },
+    {
+      "PointID": 2,
+      "PointX": 15.44,
+      "PointY": 6.55,
+      "PointZ": -2.16
+    },
+    {
+      "PointID": 3,
+      "PointX": 47.68,
+      "PointY": 9.05,
+      "PointZ": -8.09
+    },
+    {
+      "PointID": 4,
+      "PointX": 87.65,
+      "PointY": 9.84,
+      "PointZ": -5.47
+    },
+    {
+      "PointID": 5,
+      "PointX": 100.03,
+      "PointY": 34.25,
+      "PointZ": -9.52
+    }
+  ]
+}
+
+
+,
+          {
+            "PointID": 6,
+            "PointX": -4893.818,
+            "PointY": -1198.4252,
+            "PointZ": 1000
+          },
+          {
+            "PointID": 7,
+            "PointX": -8267.6566,
+            "PointY": -7240.5554,
+            "PointZ": 1000
+          }
